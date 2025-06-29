@@ -303,7 +303,7 @@ export default function Terminal() {
 		// setCurrentInteraction({ command: trimmedCommand, response: '', type: 'llm' });
 
 		try {
-			const response = await fetch('http://localhost:8000/stream', {
+			const response = await fetch('https://api.kritagya.dev/stream', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
