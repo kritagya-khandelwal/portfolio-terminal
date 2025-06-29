@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #1a1a1a;
+}
+
+.terminal-input {
+    caret-shape: block;
+    caret-color: #4ade80;
+}
+/* Fallback for browsers that don't support caret-shape */
+@supports not (caret-shape: block) {
+    .terminal-input {
+        caret-color: transparent;
+    }
+    .terminal-input:focus {
+        text-shadow: 0px 0px 0px #4ade80;
+        animation: blink 1s step-end infinite;
+    }
+}
+
+@keyframes blink {
+  from, to {
+    text-shadow: 0px 0px 0px transparent;
+  }
+  50% {
+    text-shadow: 0px 0px 0px #4ade80;
+  }
+}

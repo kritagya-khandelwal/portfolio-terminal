@@ -1,0 +1,137 @@
+{
+  "personalInfo": {
+    "name": "Kritagya Khandelwal",
+    "title": "Senior Software Engineer at Yubi",
+    "profileImage": "/profile.png",
+    "philosophy": "A firm believer in 'Evolution is randomness seeking betterment' and therefore often found thinking about unprecedented possibilities.",
+    "summary": "I have 4+ years of experience building scalable systems and solving complex problems. I did my Bachelors from IIIT Una in Computer Science and Engineering, It built a strong curiosity within me to explore technologies.",
+    "website": "https://kritagya-khandelwal.github.io/Portfolio/"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Yubi",
+      "url": "https://go-yubi.com",
+      "period": "Jul 2022 - Present",
+      "description": "Mentoring and Building microservice from the ground up with Java, Springboot, Elasticsearch, MongoDB, Temporal, and Kafka. Implemented CQRS flow for the same and using GraphQL as API architecture. Optimized Homepage load time by 5x by introducing GraphQL and reactive/Async programming in the BE ultimately reducing network calls and latency. Constantly Introducing Optimizations in the Backend at Query, Index as well as Infra level."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "314e",
+      "url": "https://www.314e.com",
+      "period": "Jun 2021 - Jul 2022",
+      "description": "Worked on Back-end(FastAPI) using python, Postgres for API Development and RabbitMQ for message queuing. Automated the Accessibility Validation on auto-built web-pages using DOM and CSSOM with python. Worked around the Authentication and Authorization part of product, Using OAuth 2.0 and RBAC as respective strategies"
+    },
+    {
+      "title": "Software Development - Intern",
+      "company": "GrowthGear",
+      "url": "https://growthgear.in",
+      "period": "Dec 2020 - May 2021",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/internship_4yr.html",
+      "description": "Worked on ReactJS for frontend development. Worked on socket.io for Real Time Communication. Developed server-side using Node.js, ExpressJS, mongoDB and REST API. Used Redis for caching and improved Backend API’s Performance by reducing network calls and DB Interaction."
+    }, {
+      "title": "Summer Intern",
+      "company": "Destiny Design",
+      "url": "http://www.destinydesign.com",
+      "period": "Jun 2020 - Aug 2020",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/internship_3yr.html",
+      "description": "Worked as a full-stack developer. Developed Facebook Instant Game from Scratch. Deployed backend webhook on AWS EC2 instance using apache server, openSSL and nodejs. Built Frontend using Javascript, JQuery, DOM with integrating Facebook Instant Games, Messanger APIs to the app, and made the app live for public users."
+    }, 
+    {
+      "title": "Software Intern",
+      "company": "Airtel",
+      "url": "https://www.airtel.in",
+      "period": "Jun 2019 - Jul 2019",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/internship_2yr.html",
+      "description": "Worked on RHEL physical servers. Automated the OS installation with the help of anaconda file, Mount point syncing between two servers for critical data backups. Apache Server installation in RHEL 7 server and hosting a webpage."
+    }
+  ],
+  "skills": {
+    "programmingLanguages": ["Java", "Python", "JavaScript", "C++"],
+    "frameworks": ["Springboot", "FastAPI", "ExpressJS", "React", "FastMCP", "Temporal"],
+    "AI": ["FastMCP", "LangGraph"],
+    "databases": ["MongoDB", "PostgreSQL", "Elasticsearch", "Redis", "Kafka", "RabbitMQ"],
+    "protocols": ["HTTP", "GraphQL", "REST", "gRPC", "MCP", "OpenAPI", "OpenTelemetry"],
+    "tools": ["Docker", "Git", "AWS", "Jenkins"]
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "IIIT Una",
+      "period": "2017 - 2021",
+      "description": "Graduated with 8.4 CGPA, lot of foundational knowledge and tech exploration experiences"
+    }, 
+    {
+      "degree": "Grade 12",
+      "institution": "RPVV, Kishan Ganj, Delhi",
+      "period": "2017",
+      "description": "Passed out of School with science stream"
+    }, 
+    {
+      "degree": "Grade 10",
+      "institution": "RPVV, Kishan Ganj, Delhi",
+      "period": "2015"
+    }
+  ],
+  "projects": [
+    {
+      "title": "DocumentorAI",
+      "description": "An AI agent that analyzes codebases and generates comprehensive documentation with layered understanding of project components and their relationships.",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/pdocumentor_agent.html",
+      "tech": ["LangGraph", "LLM", "AgenticAI"]
+    },
+    {
+      "title": "Artificial Evolution of Artificial Ant",
+      "description": "In an artificial environment, there is a single ant. The ant's motive is to eat food which is present in the environment.",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/pae_ant.html",
+      "tech": ["AI", "Neural Networks", "Genetic Algorithm", "Python", "Blender"]
+    },
+    {
+      "title": "Multi-Player Uno game: Muno",
+      "description": "Like the Uno game, multi-players can play simultaneously, Implemented under the server-client architecture of networking using TCP protocol. Developed using the pygame module of python and multi-threading.",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/pmuno_python.html",
+      "tech": ["PyGame", "Server-Client", "Networking"]
+    }, 
+    {
+      "title": "3-D map of my Hostel: Digital Himgiri",
+      "description": "It’s a simulation of hostel digitally. using unreal engine 4 for level development, and blender for 3-D object development. Used images of actual objects(like doors, almirah) to make the materials for digital object.",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/punreal_project.html",
+      "tech": ["Unreal Engine", "Blender"]
+    },
+    {
+      "title": "An Android app for Flight booking",
+      "description": "Project for Ministry of Civil Aviation in Smart India Hackathon 2019. That will provide transparency to the Ministry that the subsidy is provided to the passengers and ensures that the subsidy is given to the eligible passenger.",
+      "link": "https://kritagya-khandelwal.github.io/Portfolio/projects/prcs_android.html",
+      "tech": ["Java", "Android Studio", "XML", "Gimp"]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Got AIR 58",
+      "subTitle": "Amazon HackOn 2022"
+    }, 
+    {
+      "title": "Got 391 rank Globally",
+      "subTitle": "Google Kickstart round C 2022"
+    }, 
+    {
+      "title": "Onsite Grand Finalist",
+      "subTitle": "Smart India Hackathon 2019"
+    }, 
+    {
+      "title": "Secured 219 rank India",
+      "subTitle": "ACM ICPC 2018-19, Team: Vultures"
+    }, 
+    {
+      "title": "State Level Winner",
+      "subTitle": "Mental Maths Quiz 2013"
+    }
+  ],
+  "contact": {
+    "email": "kritagya.0398@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kritagya-khandelwal/",
+    "github": "https://github.com/kritagya-khandelwal",
+    "medium": "https://medium.com/@kritagya.0398",
+    "phone": "+91 8178638856"
+  }
+} 
